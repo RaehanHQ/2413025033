@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -115,7 +114,7 @@
             <h2>Profil</h2>
             <div class="profile">
                 <img src="images/raehan.jpg" alt="Foto Profil Raehan">
-                <p>Nama: Raehan</p>
+                <p>Nama : Raehan</p>
                 <p>NPM : 2413025033</p>
             </div>
         </div>
