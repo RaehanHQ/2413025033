@@ -1,1 +1,165 @@
-# 2413025033
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Raehan's Pages</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: white;
+            color: #1a237e;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background: #0d47a1;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            width: 100%;
+            color: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        nav {
+            background: #1a237e;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            width: 100%;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #ffeb3b;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80%;
+            max-width: 900px;
+            margin-top: 20px;
+        }
+        .box {
+            background: #e3f2fd;
+            padding: 30px;
+            width: 100%;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            color: #0d47a1;
+        }
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 3px solid #0d47a1;
+        }
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .social-media a {
+            color: #0d47a1;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        .social-media a:hover {
+            color: #ffeb3b;
+        }
+        footer {
+            background: #0d47a1;
+            padding: 15px;
+            text-align: center;
+            font-size: 16px;
+            color: white;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       Portofolio Mata Kuliah Grafika Komputer
+    </header>
+    
+    <nav>
+        <a href="#profil">Profil</a>
+        <a href="#tugas">Daftar Tugas</a>
+        <a href="#tentang">Tentang</a>
+    </nav>
+    
+    <div class="container">
+        <div class="box" id="profil">
+            <h2>Profil</h2>
+            <div class="profile">
+                <img src="images/raehan.jpg" alt="Foto Profil Raehan">
+                <p>Nama: Raehan</p>
+                <p>NPM : 2413025033</p>
+            </div>
+        </div>
+        
+        <div class="box" id="tugas">
+            <h2>Daftar Tugas</h2>
+            <p><strong>Tokoh Perintis Grafika Komputer :</strong></p>
+            <img src="images/steve.jpg" alt="Cover Tugas Tokoh" style="width: 100%; max-width: 300px; display: block; margin: 10px auto;">
+            <p>
+                <a href="files/tokoh_perintis.pdf">Buka File</a> | 
+                <a href="https://drive.google.com/file/d/1KN_BKBQjRTLONSm-OlFkkaQ9aZwz80Sg/view" target="_blank">Tonton Video</a>
+            </p>
+            <p><strong>Algoritma Garis DDA dan Bresenham :</strong></p>
+            <img src="images/garis.jpg" alt="Cover Tugas Garis" style="width: 100%; max-width: 300px; display: block; margin: 10px auto;">
+            <p>
+                <a href="files/algoritma_garis.pdf">Buka File</a> | 
+                <a href="https://drive.google.com/file/d/1ZvTkdLrz0EvPC7Cm7Ngtk_gt-fMR5eYS/view" target="_blank">Tonton Video</a>
+            </p>
+            <p><strong>Algoritma Lingkaran Bresenham dan Midpoint:</strong></p>
+            <img src="images/lingkaran.jpg" alt="Cover Tugas Lingkaran" style="width: 100%; max-width: 300px; display: block; margin: 10px auto;">
+            <p>
+                <a href="files/algoritma_lingkaran.pdf">Buka File</a> | 
+                <a href="https://drive.google.com/file/d/1nD1mjUyBj4q6O1A5V8_VNhbqZ2oqQw1-/view" target="_blank">Tonton Video</a>
+            </p>
+        </div>
+
+        <div class="box" id="tentang">
+            <h2>Tentang</h2>
+            <p>Hai! Saya Raehan, mahasiswa S1 Pendidikan Teknologi Informasi (PTI) Universitas Lampung angkatan 2024.
+                Saya tertarik dengan dunia teknologi, terutama dalam pemrograman, grafika komputer, dan bagaimana teknologi bisa diterapkan dalam dunia pendidikan.
+                Website ini saya buat sebagai tempat untuk menyimpan dan mendokumentasikan tugas-tugas kuliah, khususnya mata kuliah Grafika Komputer.
+            </p>
+            <p>Kalau ada pertanyaan atau ingin diskusi, jangan ragu untuk menghubungi saya melalui email :
+             <a href="mailto:raehann25@gmail.com">raehann25@gmail.com</a></p>
+        </div>
+    </div>
+    
+    <h3>Social Media</h3>
+    <div class="social-media">
+        <a href="https://instagram.com/_raehann25" target="_blank">Instagram</a> |
+        <a href="https://www.linkedin.com/in/raehan-363680326" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/raehanhq" target="_blank">GitHub</a>
+    </div>
+    
+    <footer>
+        Copyright &copy; 2025 - Raehan
+    </footer>
+</body>
+</html>
