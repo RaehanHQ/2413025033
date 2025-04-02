@@ -153,11 +153,13 @@
         </div>
     </div>
     
-    <h3>Social Media</h3>
-    <div class="social-media">
-        <a href="https://instagram.com/_raehann25" target="_blank">Instagram</a> |
-        <a href="https://www.linkedin.com/in/raehan-363680326" target="_blank">LinkedIn</a> |
-        <a href="https://github.com/raehanhq" target="_blank">GitHub</a>
+    <div class="social-container">
+        <h3>Social Media</h3>
+        <div class="social-media">
+            <a href="https://instagram.com/_raehann25" target="_blank">Instagram</a> |
+            <a href="https://www.linkedin.com/in/raehan-363680326" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/raehanhq" target="_blank">GitHub</a>
+        </div>
     </div>
     
     <footer>
