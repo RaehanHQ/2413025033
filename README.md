@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -153,13 +154,13 @@
     </div>
     
     <div class="social-container">
-        <h3>Social Media</h3>
-        <div class="social-media">
-            <a href="https://instagram.com/_raehann25" target="_blank">Instagram</a> |
-            <a href="https://www.linkedin.com/in/raehan-363680326" target="_blank">LinkedIn</a> |
-            <a href="https://github.com/raehanhq" target="_blank">GitHub</a>
-        </div>
+    <h3>Social Media</h3>
+    <div class="social-media">
+        <a href="https://instagram.com/_raehann25" target="_blank">Instagram</a> |
+        <a href="https://www.linkedin.com/in/raehan-363680326" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/raehanhq" target="_blank">GitHub</a>
     </div>
+</div>
     
     <footer>
         Copyright &copy; 2025 - Raehan
