@@ -243,7 +243,7 @@
       <div class="social-media">
         <a href="https://instagram.com/_raehann25" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
         <a href="https://www.linkedin.com/in/raehan-363680326" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
-        <a href="https://github.com/raehanhq" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+        <a href="https://www.facebook.com/raehan.olenk" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
       </div>
     </section>
   </main>
