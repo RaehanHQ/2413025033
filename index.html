@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Portofolio Raehan - Grafika Komputer</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
@@ -23,7 +23,7 @@
     header {
       background: linear-gradient(to right, #0d47a1, #1976d2);
       color: white;
-      padding: 80px 20px 60px;
+      padding: 100px 40px 80px;
       text-align: center;
     }
 
@@ -35,15 +35,12 @@
     nav {
       background-color: #ffffff;
       border-bottom: 1px solid #e0e0e0;
-      padding: 15px;
+      padding: 20px 40px;
       text-align: center;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 20px;
     }
 
     nav a {
+      margin: 0 20px;
       color: #0d47a1;
       font-weight: 600;
       text-decoration: none;
@@ -66,13 +63,13 @@
     }
 
     main {
-      max-width: 1100px;
-      margin: 40px auto;
-      padding: 0 20px;
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 0 40px;
     }
 
     section {
-      margin-bottom: 60px;
+      margin-bottom: 80px;
     }
 
     h2 {
@@ -92,7 +89,7 @@
       background-color: white;
       border-radius: 12px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-      padding: 20px;
+      padding: 30px;
       transition: 0.3s;
     }
 
@@ -108,16 +105,15 @@
 
     .card img {
       width: 100%;
-      height: 200px;
+      height: 220px;
       object-fit: cover;
       border-radius: 8px;
       margin-bottom: 15px;
     }
 
-    #about p,
-    #tentang p {
+    .contact p {
+      margin: 10px 0;
       text-align: center;
-      margin-bottom: 10px;
     }
 
     .contact a {
@@ -164,36 +160,23 @@
     }
 
     @media (max-width: 600px) {
-      header {
-        padding: 40px 10px 30px;
-      }
-
       header h1 {
-        font-size: 1.8rem;
-      }
-
-      .card img {
-        height: 150px;
-      }
-
-      main {
-        padding: 0 10px;
+        font-size: 2rem;
       }
 
       nav {
+        display: flex;
         flex-direction: column;
         gap: 10px;
       }
 
-      nav a {
-        margin: 5px 0;
-        display: block;
+      main {
+        padding: 0 20px;
       }
     }
   </style>
 </head>
 <body>
-
   <header>
     <h1>Portofolio Mata Kuliah Grafika Komputer</h1>
   </header>
@@ -223,27 +206,34 @@
           <img src="images/steve.jpg" alt="Cover Tugas Tokoh">
           <h3>Tokoh Perintis Grafika Komputer</h3>
           <p><a href="files/tokoh_perintis.pdf">Buka File</a> |
-            <a href="https://drive.google.com/file/d/1KN_BKBQjRTLONSm-OlFkkaQ9aZwz80Sg/view" target="_blank">Tonton Video</a></p>
+             <a href="https://drive.google.com/file/d/1KN_BKBQjRTLONSm-OlFkkaQ9aZwz80Sg/view" target="_blank">Tonton Video</a></p>
         </div>
         <div class="card">
           <img src="images/garis.jpg" alt="Cover Tugas Garis">
           <h3>Algoritma Garis DDA & Bresenham</h3>
           <p><a href="files/algoritma_garis.pdf">Buka File</a> |
-            <a href="https://drive.google.com/file/d/1ZvTkdLrz0EvPC7Cm7Ngtk_gt-fMR5eYS/view" target="_blank">Tonton Video</a></p>
+             <a href="https://drive.google.com/file/d/1ZvTkdLrz0EvPC7Cm7Ngtk_gt-fMR5eYS/view" target="_blank">Tonton Video</a></p>
         </div>
         <div class="card">
           <img src="images/lingkaran.jpg" alt="Cover Tugas Lingkaran">
           <h3>Algoritma Lingkaran Bresenham & Midpoint</h3>
           <p><a href="files/algoritma_lingkaran.pdf">Buka File</a> |
-            <a href="https://drive.google.com/file/d/1nD1mjUyBj4q6O1A5V8_VNhbqZ2oqQw1-/view" target="_blank">Tonton Video</a></p>
+             <a href="https://drive.google.com/file/d/1nD1mjUyBj4q6O1A5V8_VNhbqZ2oqQw1-/view" target="_blank">Tonton Video</a></p>
         </div>
       </div>
     </section>
 
     <section id="tentang">
       <h2>About Me</h2>
-      <p>Hai! Saya Raehan, mahasiswa S1 Pendidikan Teknologi Informasi (PTI) Universitas Lampung angkatan 2024. Saya tertarik dengan dunia teknologi, terutama dalam pemrograman, grafika komputer, dan bagaimana teknologi bisa diterapkan dalam dunia pendidikan. Website ini saya buat sebagai tempat untuk menyimpan dan mendokumentasikan tugas-tugas kuliah, khususnya mata kuliah Grafika Komputer.</p>
-      <p>Kalau ada pertanyaan atau ingin diskusi, jangan ragu untuk menghubungi saya melalui email: <a href="mailto:raehann25@gmail.com">raehann25@gmail.com</a></p>
+      <p style="text-align: center;">
+        Hai! Saya Raehan, mahasiswa S1 Pendidikan Teknologi Informasi (PTI) Universitas Lampung angkatan 2024.
+        Saya tertarik dengan dunia teknologi, terutama dalam pemrograman, grafika komputer, dan bagaimana teknologi bisa diterapkan dalam dunia pendidikan.
+        Website ini saya buat sebagai tempat untuk menyimpan dan mendokumentasikan tugas-tugas kuliah, khususnya mata kuliah Grafika Komputer.
+      </p>
+      <p style="text-align: center;">
+        Kalau ada pertanyaan atau ingin diskusi, jangan ragu untuk menghubungi saya melalui email:
+        <a href="mailto:raehann25@gmail.com">raehann25@gmail.com</a>
+      </p>
     </section>
 
     <section id="social">
@@ -259,6 +249,5 @@
   <footer>
     &copy; 2025 Raehan.
   </footer>
-
 </body>
 </html>
