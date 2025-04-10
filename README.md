@@ -22,7 +22,7 @@
     header {
       background: linear-gradient(to right, #0d47a1, #1976d2);
       color: white;
-      padding: 100px 40px 80px;
+      padding: 80px 20px 60px;
       text-align: center;
     }
 
@@ -34,7 +34,7 @@
     nav {
       background-color: #ffffff;
       border-bottom: 1px solid #e0e0e0;
-      padding: 20px 40px;
+      padding: 15px;
       text-align: center;
     }
 
@@ -62,13 +62,13 @@
     }
 
     main {
-      max-width: 1200px;
-      margin: 50px auto;
-      padding: 0 40px;
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
     }
 
     section {
-      margin-bottom: 80px;
+      margin-bottom: 60px;
     }
 
     h2 {
@@ -88,7 +88,7 @@
       background-color: white;
       border-radius: 12px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-      padding: 30px;
+      padding: 20px;
       transition: 0.3s;
     }
 
@@ -104,7 +104,7 @@
 
     .card img {
       width: 100%;
-      height: 220px;
+      height: 200px;
       object-fit: cover;
       border-radius: 8px;
       margin-bottom: 15px;
@@ -168,14 +168,11 @@
         flex-direction: column;
         gap: 10px;
       }
-
-      main {
-        padding: 0 20px;
-      }
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Portofolio Mata Kuliah Grafika Komputer</h1>
   </header>
@@ -204,20 +201,26 @@
         <div class="card">
           <img src="images/steve.jpg" alt="Cover Tugas Tokoh">
           <h3>Tokoh Perintis Grafika Komputer</h3>
-          <p><a href="files/tokoh_perintis.pdf">Buka File</a> |
-             <a href="https://drive.google.com/file/d/1KN_BKBQjRTLONSm-OlFkkaQ9aZwz80Sg/view" target="_blank">Tonton Video</a></p>
+          <p>
+            <a href="files/tokoh_perintis.pdf">Buka File</a> |
+            <a href="https://drive.google.com/file/d/1KN_BKBQjRTLONSm-OlFkkaQ9aZwz80Sg/view" target="_blank">Tonton Video</a>
+          </p>
         </div>
         <div class="card">
           <img src="images/garis.jpg" alt="Cover Tugas Garis">
           <h3>Algoritma Garis DDA & Bresenham</h3>
-          <p><a href="files/algoritma_garis.pdf">Buka File</a> |
-             <a href="https://drive.google.com/file/d/1ZvTkdLrz0EvPC7Cm7Ngtk_gt-fMR5eYS/view" target="_blank">Tonton Video</a></p>
+          <p>
+            <a href="files/algoritma_garis.pdf">Buka File</a> |
+            <a href="https://drive.google.com/file/d/1ZvTkdLrz0EvPC7Cm7Ngtk_gt-fMR5eYS/view" target="_blank">Tonton Video</a>
+          </p>
         </div>
         <div class="card">
           <img src="images/lingkaran.jpg" alt="Cover Tugas Lingkaran">
           <h3>Algoritma Lingkaran Bresenham & Midpoint</h3>
-          <p><a href="files/algoritma_lingkaran.pdf">Buka File</a> |
-             <a href="https://drive.google.com/file/d/1nD1mjUyBj4q6O1A5V8_VNhbqZ2oqQw1-/view" target="_blank">Tonton Video</a></p>
+          <p>
+            <a href="files/algoritma_lingkaran.pdf">Buka File</a> |
+            <a href="https://drive.google.com/file/d/1nD1mjUyBj4q6O1A5V8_VNhbqZ2oqQw1-/view" target="_blank">Tonton Video</a>
+          </p>
         </div>
       </div>
     </section>
@@ -248,5 +251,6 @@
   <footer>
     &copy; 2025 Raehan.
   </footer>
+
 </body>
 </html>
