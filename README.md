@@ -1,7 +1,7 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
   <title>Portofolio Raehan - Grafika Komputer</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
@@ -36,10 +36,13 @@
       border-bottom: 1px solid #e0e0e0;
       padding: 15px;
       text-align: center;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
     }
 
     nav a {
-      margin: 0 20px;
       color: #0d47a1;
       font-weight: 600;
       text-decoration: none;
@@ -102,9 +105,18 @@
       color: #1565c0;
     }
 
-    .contact p {
-      margin: 10px 0;
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    #about p,
+    #tentang p {
       text-align: center;
+      margin-bottom: 10px;
     }
 
     .contact a {
@@ -151,14 +163,30 @@
     }
 
     @media (max-width: 600px) {
+      header {
+        padding: 40px 10px 30px;
+      }
+
       header h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+      }
+
+      .card img {
+        height: 150px;
+      }
+
+      main {
+        padding: 0 10px;
       }
 
       nav {
-        display: flex;
         flex-direction: column;
         gap: 10px;
+      }
+
+      nav a {
+        margin: 5px 0;
+        display: block;
       }
     }
   </style>
@@ -181,58 +209,51 @@
       <div style="text-align: center;">
         <div style="display: flex; justify-content: center; margin-bottom: 20px;">
           <img src="images/raehan.jpg" alt="Foto Raehan" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; border: 3px solid #0d47a1;">
-        </div>              
+        </div>
         <p>Nama: Raehan</p>
         <p>NPM: 2413025033</p>
       </div>
     </section>
 
     <section id="tugas">
-        <h2 style="text-align: center;">Daftar Tugas</h2>
-        <div class="grid">
-          <div class="card">
-            <img src="images/steve.jpg" alt="Cover Tugas Tokoh" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
-            <h3>Tokoh Perintis Grafika Komputer</h3>
-            <p><a href="files/tokoh_perintis.pdf">Buka File</a> | 
-               <a href="https://drive.google.com/file/d/1KN_BKBQjRTLONSm-OlFkkaQ9aZwz80Sg/view" target="_blank">Tonton Video</a></p>
-          </div>
-          <div class="card">
-            <img src="images/garis.jpg" alt="Cover Tugas Garis" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
-            <h3>Algoritma Garis DDA & Bresenham</h3>
-            <p><a href="files/algoritma_garis.pdf">Buka File</a> | 
-               <a href="https://drive.google.com/file/d/1ZvTkdLrz0EvPC7Cm7Ngtk_gt-fMR5eYS/view" target="_blank">Tonton Video</a></p>
-          </div>
-          <div class="card">
-            <img src="images/lingkaran.jpg" alt="Cover Tugas Lingkaran" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
-            <h3>Algoritma Lingkaran Bresenham & Midpoint</h3>
-            <p><a href="files/algoritma_lingkaran.pdf">Buka File</a> | 
-               <a href="https://drive.google.com/file/d/1nD1mjUyBj4q6O1A5V8_VNhbqZ2oqQw1-/view" target="_blank">Tonton Video</a></p>
-          </div>
+      <h2>Daftar Tugas</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="images/steve.jpg" alt="Cover Tugas Tokoh">
+          <h3>Tokoh Perintis Grafika Komputer</h3>
+          <p><a href="files/tokoh_perintis.pdf">Buka File</a> |
+            <a href="https://drive.google.com/file/d/1KN_BKBQjRTLONSm-OlFkkaQ9aZwz80Sg/view" target="_blank">Tonton Video</a></p>
         </div>
-      </section>      
-          
+        <div class="card">
+          <img src="images/garis.jpg" alt="Cover Tugas Garis">
+          <h3>Algoritma Garis DDA & Bresenham</h3>
+          <p><a href="files/algoritma_garis.pdf">Buka File</a> |
+            <a href="https://drive.google.com/file/d/1ZvTkdLrz0EvPC7Cm7Ngtk_gt-fMR5eYS/view" target="_blank">Tonton Video</a></p>
+        </div>
+        <div class="card">
+          <img src="images/lingkaran.jpg" alt="Cover Tugas Lingkaran">
+          <h3>Algoritma Lingkaran Bresenham & Midpoint</h3>
+          <p><a href="files/algoritma_lingkaran.pdf">Buka File</a> |
+            <a href="https://drive.google.com/file/d/1nD1mjUyBj4q6O1A5V8_VNhbqZ2oqQw1-/view" target="_blank">Tonton Video</a></p>
+        </div>
+      </div>
+    </section>
 
     <section id="tentang">
       <h2>About Me</h2>
-      <p style="text-align: center;">
-        Hai! Saya Raehan, mahasiswa S1 Pendidikan Teknologi Informasi (PTI) Universitas Lampung angkatan 2024.
-                Saya tertarik dengan dunia teknologi, terutama dalam pemrograman, grafika komputer, dan bagaimana teknologi bisa diterapkan dalam dunia pendidikan.
-                Website ini saya buat sebagai tempat untuk menyimpan dan mendokumentasikan tugas-tugas kuliah, khususnya mata kuliah Grafika Komputer.
-      </p>
-      <p>Kalau ada pertanyaan atau ingin diskusi, jangan ragu untuk menghubungi saya melalui email :
-        <a href="mailto:raehann25@gmail.com">raehann25@gmail.com</a></p>
+      <p>Hai! Saya Raehan, mahasiswa S1 Pendidikan Teknologi Informasi (PTI) Universitas Lampung angkatan 2024. Saya tertarik dengan dunia teknologi, terutama dalam pemrograman, grafika komputer, dan bagaimana teknologi bisa diterapkan dalam dunia pendidikan. Website ini saya buat sebagai tempat untuk menyimpan dan mendokumentasikan tugas-tugas kuliah, khususnya mata kuliah Grafika Komputer.</p>
+      <p>Kalau ada pertanyaan atau ingin diskusi, jangan ragu untuk menghubungi saya melalui email: <a href="mailto:raehann25@gmail.com">raehann25@gmail.com</a></p>
     </section>
 
-</section>
     <section id="social">
       <h2>Social Media</h2>
       <div class="social-media">
         <a href="https://instagram.com/_raehann25" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
         <a href="https://www.linkedin.com/in/raehan-363680326" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
-        <a href="https://www.facebook.com/raehan.olenk" target="_blank"><i class="fab fa-facebook/i>Facebook</a>
+        <a href="https://github.com/raehanhq" target="_blank"><i class="fab fa-github"></i>GitHub</a>
       </div>
     </section>
-
+  </main>
 
   <footer>
     &copy; 2025 Raehan.
